@@ -49,7 +49,7 @@ Stardust simplifies community management by offering a unified platform for crea
 
 ## Getting started
 
-1. Clone the repository: `git clone https://github.com/0xJohnnie/hex-quest.git`
+1. Clone the repository: `git clone https://github.com/0xJohnnie/stardust.git`
 2. Install dependencies: `yarn install`
 3. Copy the .env.example file to `.env` and edit the variables to match your local environment.
 4. Run `yarn dev` to launch the application in your local development environment.
