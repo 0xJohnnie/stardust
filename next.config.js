@@ -1,16 +1,14 @@
 /**
  * @type {import('next').NextConfig}
  */
-const runtimeCaching = require('next-pwa/cache');
 
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled:
     process.env.ANALYZE === 'true' && process.env.NODE_ENV !== 'development',
 });
 
-const withPWA = require('next-pwa')({
+const withPWA = require('@ducanh2912/next-pwa').default({
   dest: 'public',
-  runtimeCaching,
   disable: process.env.NODE_ENV === 'development',
   register: true,
   scope: '/app',
@@ -22,7 +20,7 @@ const nextConfig = withBundleAnalyzer(
     eslint: {
       ignoreDuringBuilds: false,
     },
-    reactStrictMode: false,
+    reactStrictMode: true,
     poweredByHeader: false,
     swcMinify: true,
     compiler: {
@@ -43,6 +41,7 @@ const nextConfig = withBundleAnalyzer(
           __REACT_DEVTOOLS_GLOBAL_HOOK__: '({ isDisabled: true })',
         }),
       ];
+      config.resolve.fallback = { fs: false, net: false, tls: false };
       // Important: return the modified config
       return config;
     },

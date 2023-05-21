@@ -1,10 +1,10 @@
-# Hex Quest
+# Stardust
 
 An all-in-one community management social app.
 
 ## Purpose
 
-Hex Quest simplifies community management by offering a unified platform for creating, managing, and promoting events, as well as handling community and user profiles.
+Stardust simplifies community management by offering a unified platform for creating, managing, and promoting events, as well as handling community and user profiles.
 
 ## Features
 
