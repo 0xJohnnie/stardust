@@ -31,21 +31,45 @@ Stardust simplifies community management by offering a unified platform for crea
 ### Web3-Related
 
 1. Rainbowkit (Wallet connection for dApps)
-2. Auth0 [Previously SIWE] (User authentication and authorization)
+   ↪️https://github.com/rainbow-me/rainbowkit
+
+2. SIWE (User authentication via Web3 wallet signing)
+   ↪️https://github.com/spruceid/siwe
+
 3. Wagmi (React hooks for Ethereum)
+   ↪️https://github.com/wagmi-dev/wagmi
+
 4. Viem (Typescript interface for Ethereum)
-5. Ethers v5 (Ethereum library)
+   ↪️https://github.com/wagmi-dev/viem
+
+5. Ethers v6 (Ethereum library)
+   ↪️https://github.com/ethers-io/ethers.js
+
 6. Alchemy (API to query the blockchain)
+   ↪️https://www.alchemy.com/sdk
 
 ### Essentials
 
 1. Nextjs (React framework)
+   ↪️https://github.com/vercel/next.js
+
 2. Authjs [Previously NextAuth] (User authentication for Next.js)
+   ↪️https://github.com/nextauthjs/next-auth
+
 3. Mantine (React components)
+   ↪️https://github.com/mantinedev/mantine
+
 4. SWR (React Hooks for Data Fetching)
+   ↪️https://github.com/vercel/swr
+
 5. Zustand (State management in React)
+   ↪️https://github.com/pmndrs/zustand
+
 6. Zod (Schema validation)
+   ↪️https://github.com/colinhacks/zod
+
 7. NextPWA (Enables PWA deployment)
+   ↪️https://github.com/DuCanhGH/next-pwa
 
 ## Getting started
 
